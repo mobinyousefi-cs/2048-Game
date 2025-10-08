@@ -95,7 +95,6 @@ This project demonstrates:
 ## 🧑‍💻 Author
 
 **Mobin Yousefi**
-🎓 Master's in Computer Science
 🌐 [GitHub Profile](https://github.com/mobinyousefi-cs)
 
 ---
@@ -109,3 +108,4 @@ This project is licensed under the [MIT License](./LICENSE). Feel free to use, m
 ## 🌟 Acknowledgements
 
 Special thanks to the open-source Python community and educational resources that inspire creative learning and coding excellence.
+
