@@ -3,8 +3,8 @@
 Project: 2048 Game (Tkinter)
 File: README.md
 Author: Mobin Yousefi (GitHub: [https://github.com/mobinyousefi-cs](https://github.com/mobinyousefi-cs))
-Created: 2025-10-02
-Updated: 2025-10-02
+Created: 2025-10-08
+Updated: 2025-10-08
 License: MIT License (see LICENSE file for details)
 ===================================================
 

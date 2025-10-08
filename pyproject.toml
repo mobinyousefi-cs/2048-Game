@@ -1,0 +1,25 @@
+# =
+# Project: 2048 Game (Tkinter)
+# File: pyproject.toml
+# Author: Mobin Yousefi (GitHub: https://github.com/mobinyousefi-cs)
+# Created: 2025-10-08
+# Updated: 2025-10-08
+# License: MIT License (see LICENSE file for details)
+# =
+
+[project]
+name = "my-2048-project"
+version = "0.1.0"
+description = "A simple 2048 game implemented in Python with a Tkinter UI and clean project layout."
+authors = [ { name = "Mobin Yousefi" } ]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-q"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
