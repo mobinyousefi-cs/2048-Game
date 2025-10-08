@@ -1,77 +1,40 @@
-# 2048 Game — Tkinter Edition
+# 🎮 2048 Game — Tkinter Edition
 
-echo "==========================================="
-echo "   2048 Game - Tkinter Edition"
-echo "==========================================="
-echo ""
-echo "🎮 Features:"
-echo "  • Clean Tkinter GUI with responsive controls"
-echo "  • Persistent high score tracking"
-echo "  • Modular architecture"
-echo "  • Comprehensive test coverage"
-echo "  • Cross-platform compatibility"
-echo ""
+<div align="center">
 
-echo "📁 Project Structure:"
-echo "my_2048_project/"
-echo "├── src/"
-echo "│   ├── __init__.py"
-echo "│   ├── game.py         # Core game logic"
-echo "│   └── ui.py           # Tkinter interface"
-echo "├── tests/"
-echo "│   └── test_game_logic.py"
-echo "├── .github/"
-echo "│   └── workflows/"
-echo "│       └── ci.yml"
-echo "├── pyproject.toml"
-echo "├── README.md"
-echo "├── LICENSE"
-echo "└── .gitignore"
-echo ""
+![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-orange?style=for-the-badge)
 
-echo "🚀 Quick Start:"
-echo ""
-echo "1. Clone and setup:"
-echo "git clone https://github.com/mobinyousefi-cs/2048-tkinter.git"
-echo "cd 2048-tkinter"
-echo ""
-echo "2. Run the game (choose one method):"
-echo "python -m src.ui                 # Method 1: Module execution"
-echo "python src/ui.py                 # Method 2: Direct execution"
-echo "python 2048_game.py              # Method 3: Single-file version"
-echo ""
-echo "3. Run tests:"
-echo "pytest                           # Run all tests"
-echo "pytest -v                        # Verbose output"
-echo "pytest --cov=src                 # With coverage report"
-echo ""
+**A beautiful and addictive implementation of the classic 2048 puzzle game**
 
-echo "🎯 How to Play:"
-echo "• Objective: Combine tiles to reach 2048"
-echo "• Controls: Arrow keys (Up, Down, Left, Right)"
-echo "• Scoring: Increases with tile combinations"
-echo "• High Score: Saved to ~/.2048_highscore.json"
-echo ""
+[🚀 Quick Start](#-quick-start) • [🎯 Features](#-features) • [📸 Screenshots](#-screenshots) • [🔧 Development](#-development)
 
-echo "🔧 Technical Details:"
-echo "• game.py: Core game logic (board operations, scoring, win/lose)"
-echo "• ui.py: Tkinter interface and user interactions"
-echo ""
+</div>
 
-echo "🧪 Testing Commands:"
-echo "pytest                           # Basic test run"
-echo "pytest tests/ -v                 # Specific directory with verbose"
-echo "pytest --cov=src --cov-report=html  # HTML coverage report"
-echo ""
+## ✨ Features
 
-echo "📝 License: MIT"
-echo "👨‍💻 Author: Mobin Yousefi"
-echo "🌐 GitHub: https://github.com/mobinyousefi-cs"
-echo ""
+| Category | Features |
+|----------|----------|
+| 🎨 **Visual** | Clean Tkinter interface • Smooth animations • Colorful tiles • Responsive design |
+| 🏆 **Gameplay** | Persistent high scores • Win/lose detection • Move tracking • Score calculation |
+| 🛠 **Technical** | Modular architecture • Comprehensive testing • Cross-platform • Easy to extend |
+| 📊 **Extras** | Real-time score display • Game state persistence • Keyboard controls |
 
-echo "🤝 Contributing:"
-echo "Pull requests and issues welcome!"
-echo ""
+## 🏗️ Project Structure
 
-echo "---"
-echo "Last Updated: October 2025"
+```bash
+my_2048_project/
+├── 🗂️ src/
+│   ├── __init__.py
+│   ├── 🎯 game.py          # Core game logic & mechanics
+│   └── 🖼️ ui.py            # Tkinter GUI implementation
+├── 🧪 tests/
+│   └── test_game_logic.py  # Comprehensive test suite
+├── ⚙️ .github/
+│   └── workflows/
+│       └── ci.yml          # GitHub Actions CI/CD
+├── 📄 pyproject.toml       # Project configuration
+├── 📖 README.md
+├── 📜 LICENSE
+└── 🙈 .gitignore
