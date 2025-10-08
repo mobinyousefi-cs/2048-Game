@@ -1,40 +1,111 @@
-# 🎮 2048 Game — Tkinter Edition
+# Countdown Timer ⏳
 
-<div align="center">
+A clean, reliable, and user-friendly **Countdown Timer Application** built with Python and Tkinter. This project allows users to set custom countdown durations and track time with an elegant interface — perfect for task management, productivity tracking, or simple reminders.
 
-![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![GUI](https://img.shields.io/badge/GUI-Tkinter-orange?style=for-the-badge)
+---
 
-**A beautiful and addictive implementation of the classic 2048 puzzle game**
+## 🧩 Project Overview
 
-[🚀 Quick Start](#-quick-start) • [🎯 Features](#-features) • [📸 Screenshots](#-screenshots) • [🔧 Development](#-development)
+This application lets users input a countdown duration and displays the remaining time in real-time. When the countdown ends, the app notifies the user with a clear message. It’s a beginner-friendly project but structured professionally, demonstrating strong software design and readability.
 
-</div>
+---
 
-## ✨ Features
+## 🚀 Features
 
-| Category | Features |
-|----------|----------|
-| 🎨 **Visual** | Clean Tkinter interface • Smooth animations • Colorful tiles • Responsive design |
-| 🏆 **Gameplay** | Persistent high scores • Win/lose detection • Move tracking • Score calculation |
-| 🛠 **Technical** | Modular architecture • Comprehensive testing • Cross-platform • Easy to extend |
-| 📊 **Extras** | Real-time score display • Game state persistence • Keyboard controls |
+* ⏱️ **Interactive Countdown Timer** – Input any duration and start counting down.
+* 🔔 **End-of-Timer Notification** – Alerts the user when the countdown reaches zero.
+* 🧭 **Clean GUI Design** – Built using Tkinter for a simple and intuitive user experience.
+* 🧰 **Modular Code Structure** – Organized under `src/` and `tests/` directories following best practices.
+* 🧪 **Unit Testing** – Includes test scripts using `pytest` for reliability.
+* 📜 **MIT Licensed** – Open for learning, contribution, and reuse.
 
-## 🏗️ Project Structure
+---
+
+## 🧱 Project Structure
+
+```
+CountdownTimer/
+│
+├── src/
+│   ├── __init__.py
+│   └── main.py
+│
+├── tests/
+│   └── test_main.py
+│
+├── requirements.txt
+├── pyproject.toml
+├── LICENSE
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/mobinyousefi-cs/CountdownTimer.git
+   cd CountdownTimer
+   ```
+
+2. **Create a virtual environment (optional but recommended):**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the application:**
+
+   ```bash
+   python src/main.py
+   ```
+
+---
+
+## 🧪 Running Tests
+
+To ensure everything works correctly:
 
 ```bash
-my_2048_project/
-├── 🗂️ src/
-│   ├── __init__.py
-│   ├── 🎯 game.py          # Core game logic & mechanics
-│   └── 🖼️ ui.py            # Tkinter GUI implementation
-├── 🧪 tests/
-│   └── test_game_logic.py  # Comprehensive test suite
-├── ⚙️ .github/
-│   └── workflows/
-│       └── ci.yml          # GitHub Actions CI/CD
-├── 📄 pyproject.toml       # Project configuration
-├── 📖 README.md
-├── 📜 LICENSE
-└── 🙈 .gitignore
+pytest
+```
+
+---
+
+## 🧠 Learning Objectives
+
+This project demonstrates:
+
+* GUI programming using **Tkinter**
+* Event-driven programming concepts
+* Structuring Python projects professionally
+* Writing and maintaining clean, testable code
+
+---
+
+## 🧑‍💻 Author
+
+**Mobin Yousefi**
+🎓 Master's in Computer Science
+🌐 [GitHub Profile](https://github.com/mobinyousefi-cs)
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](./LICENSE). Feel free to use, modify, and distribute it with attribution.
+
+---
+
+## 🌟 Acknowledgements
+
+Special thanks to the open-source Python community and educational resources that inspire creative learning and coding excellence.
