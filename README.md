@@ -1,43 +1,77 @@
-# =
+# 2048 Game — Tkinter Edition
 
-Project: 2048 Game (Tkinter)
-File: README.md
-Author: Mobin Yousefi (GitHub: [https://github.com/mobinyousefi-cs](https://github.com/mobinyousefi-cs))
-Created: 2025-10-08
-Updated: 2025-10-08
-License: MIT License (see LICENSE file for details)
-===================================================
+echo "==========================================="
+echo "   2048 Game - Tkinter Edition"
+echo "==========================================="
+echo ""
+echo "🎮 Features:"
+echo "  • Clean Tkinter GUI with responsive controls"
+echo "  • Persistent high score tracking"
+echo "  • Modular architecture"
+echo "  • Comprehensive test coverage"
+echo "  • Cross-platform compatibility"
+echo ""
 
-# 2048 — Tkinter Edition
+echo "📁 Project Structure:"
+echo "my_2048_project/"
+echo "├── src/"
+echo "│   ├── __init__.py"
+echo "│   ├── game.py         # Core game logic"
+echo "│   └── ui.py           # Tkinter interface"
+echo "├── tests/"
+echo "│   └── test_game_logic.py"
+echo "├── .github/"
+echo "│   └── workflows/"
+echo "│       └── ci.yml"
+echo "├── pyproject.toml"
+echo "├── README.md"
+echo "├── LICENSE"
+echo "└── .gitignore"
+echo ""
 
-A compact, well-structured implementation of the 2048 puzzle game in Python using Tkinter for the UI.
+echo "🚀 Quick Start:"
+echo ""
+echo "1. Clone and setup:"
+echo "git clone https://github.com/mobinyousefi-cs/2048-tkinter.git"
+echo "cd 2048-tkinter"
+echo ""
+echo "2. Run the game (choose one method):"
+echo "python -m src.ui                 # Method 1: Module execution"
+echo "python src/ui.py                 # Method 2: Direct execution"
+echo "python 2048_game.py              # Method 3: Single-file version"
+echo ""
+echo "3. Run tests:"
+echo "pytest                           # Run all tests"
+echo "pytest -v                        # Verbose output"
+echo "pytest --cov=src                 # With coverage report"
+echo ""
 
-## Structure
+echo "🎯 How to Play:"
+echo "• Objective: Combine tiles to reach 2048"
+echo "• Controls: Arrow keys (Up, Down, Left, Right)"
+echo "• Scoring: Increases with tile combinations"
+echo "• High Score: Saved to ~/.2048_highscore.json"
+echo ""
 
-```
-my_2048_project/
-├── src/
-│   ├── __init__.py
-│   ├── game.py
-│   └── ui.py
-├── tests/
-│   └── test_game_logic.py
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-├── pyproject.toml
-├── README.md
-├── LICENSE
-└── .gitignore
-```
+echo "🔧 Technical Details:"
+echo "• game.py: Core game logic (board operations, scoring, win/lose)"
+echo "• ui.py: Tkinter interface and user interactions"
+echo ""
 
-## Running
+echo "🧪 Testing Commands:"
+echo "pytest                           # Basic test run"
+echo "pytest tests/ -v                 # Specific directory with verbose"
+echo "pytest --cov=src --cov-report=html  # HTML coverage report"
+echo ""
 
-* Run the UI: `python -m src.ui` or `python src/ui.py`.
-* Run tests: `pytest`
+echo "📝 License: MIT"
+echo "👨‍💻 Author: Mobin Yousefi"
+echo "🌐 GitHub: https://github.com/mobinyousefi-cs"
+echo ""
 
-## Notes
+echo "🤝 Contributing:"
+echo "Pull requests and issues welcome!"
+echo ""
 
-* The game logic is contained in `src/game.py` which is easy to unit test.
-* Highscore is stored in `~/.2048_highscore.json`.
-* If you want a single-file runnable version, use `2048_game.py`.
+echo "---"
+echo "Last Updated: October 2025"
